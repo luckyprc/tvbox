@@ -46,21 +46,15 @@ for file in files:
     latest_commit = commits[0]
     commit_date = latest_commit['commit']['author']['date']
 
-    # 下载 JSON 文件内容
+    # JSON 源 URL
     raw_url = f"https://raw.githubusercontent.com/{repo_full_name}/{branch}/{file_path}"
-    json_resp = requests.get(raw_url)
-    try:
-        json_data = json_resp.json()
-    except:
-        continue
 
     tvbox_list.append({
         "repo": repo_full_name,
         "path": file_path,
         "branch": branch,
         "last_update": commit_date,
-        "raw_url": raw_url,
-        "data_preview": json_data[:3] if isinstance(json_data, list) else json_data
+        "raw_url": raw_url
     })
 
 # -----------------------------
