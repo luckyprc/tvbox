@@ -1,182 +1,230 @@
 {
   "update_time": "",
-  "total": 22,
+  "total": 32,
   "sources": [
     {
-      "name": "0821.json",
-      "repo": "qist/tvbox",
-      "path": "0821.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
-      "size": 23880,
-      "last_update": "2026-02-05T07:57:03Z"
-    },
-    {
-      "name": "0825.json",
-      "repo": "qist/tvbox",
-      "path": "0825.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0825.json",
-      "size": 27504,
-      "last_update": "2026-02-05T07:57:03Z"
-    },
-    {
-      "name": "9918.json",
-      "repo": "qist/tvbox",
-      "path": "9918.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
-      "size": 21843,
-      "last_update": "2026-02-05T07:57:03Z"
-    },
-    {
-      "name": "99188.json",
-      "repo": "qist/tvbox",
-      "path": "99188.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/99188.json",
-      "size": 21877,
-      "last_update": "2026-02-05T07:57:03Z"
-    },
-    {
-      "name": "0826.json",
-      "repo": "qist/tvbox",
-      "path": "0826.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0826.json",
-      "size": 12108,
-      "last_update": "2025-07-03T01:27:41Z"
-    },
-    {
-      "name": "367.json",
-      "repo": "qist/tvbox",
-      "path": "367.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/367.json",
-      "size": 55572,
-      "last_update": "2025-06-06T06:36:03Z"
+      "name": "0707.json",
+      "repo": "gaotianliuyun/gao",
+      "path": "0707.json",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
+      "size": 457
     },
     {
       "name": "0821.json",
       "repo": "gaotianliuyun/gao",
       "path": "0821.json",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json",
-      "size": 22974,
-      "last_update": "2024-11-17T13:56:54Z"
-    },
-    {
-      "name": "0826.json",
-      "repo": "gaotianliuyun/gao",
-      "path": "0826.json",
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0826.json",
-      "size": 10559,
-      "last_update": "2024-11-17T13:56:54Z"
+      "size": 22974
     },
     {
       "name": "0825.json",
       "repo": "gaotianliuyun/gao",
       "path": "0825.json",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json",
-      "size": 27518,
-      "last_update": "2024-10-10T13:43:27Z"
+      "size": 27518
     },
     {
-      "name": "0827.json",
-      "repo": "qist/tvbox",
-      "path": "0827.json",
-      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0827.json",
-      "size": 9973,
-      "last_update": "2024-09-23T03:52:18Z"
+      "name": "0826.json",
+      "repo": "gaotianliuyun/gao",
+      "path": "0826.json",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0826.json",
+      "size": 10559
     },
     {
       "name": "0827.json",
       "repo": "gaotianliuyun/gao",
       "path": "0827.json",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
-      "size": 9973,
-      "last_update": "2024-09-22T01:35:30Z"
+      "size": 9973
     },
     {
       "name": "VidHub.json",
       "repo": "gaotianliuyun/gao",
       "path": "XBPQ/VidHub.json",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ/VidHub.json",
-      "size": 602,
-      "last_update": "2024-05-25T12:26:07Z"
+      "size": 602
+    },
+    {
+      "name": "bttt.json",
+      "repo": "gaotianliuyun/gao",
+      "path": "XBPQ/bttt.json",
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ/bttt.json",
+      "size": 3547
     },
     {
       "name": "rarbt.json",
       "repo": "gaotianliuyun/gao",
       "path": "XBPQ/rarbt.json",
       "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ/rarbt.json",
-      "size": 644,
-      "last_update": "2024-05-05T06:12:18Z"
+      "size": 644
     },
     {
       "name": "0707.json",
       "repo": "qist/tvbox",
       "path": "0707.json",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/0707.json",
-      "size": 457,
-      "last_update": "2024-04-22T01:56:57Z"
+      "size": 457
     },
     {
-      "name": "0707.json",
-      "repo": "gaotianliuyun/gao",
-      "path": "0707.json",
-      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json",
-      "size": 457,
-      "last_update": "2024-04-21T14:51:18Z"
+      "name": "0821.json",
+      "repo": "qist/tvbox",
+      "path": "0821.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0821.json",
+      "size": 23880
+    },
+    {
+      "name": "0825.json",
+      "repo": "qist/tvbox",
+      "path": "0825.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0825.json",
+      "size": 27504
+    },
+    {
+      "name": "0826.json",
+      "repo": "qist/tvbox",
+      "path": "0826.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0826.json",
+      "size": 12108
+    },
+    {
+      "name": "0827.json",
+      "repo": "qist/tvbox",
+      "path": "0827.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/0827.json",
+      "size": 9973
+    },
+    {
+      "name": "367.json",
+      "repo": "qist/tvbox",
+      "path": "367.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/367.json",
+      "size": 55572
+    },
+    {
+      "name": "9918.json",
+      "repo": "qist/tvbox",
+      "path": "9918.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
+      "size": 21843
+    },
+    {
+      "name": "99188.json",
+      "repo": "qist/tvbox",
+      "path": "99188.json",
+      "url": "https://raw.githubusercontent.com/qist/tvbox/master/99188.json",
+      "size": 21877
     },
     {
       "name": "bili.json",
       "repo": "liu673cn/box",
       "path": "libs/bili.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/bili.json",
-      "size": 115852,
-      "last_update": ""
+      "size": 115852
     },
     {
       "name": "bilibili.json",
       "repo": "liu673cn/box",
       "path": "libs/bilibili.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/bilibili.json",
-      "size": 73847,
-      "last_update": ""
+      "size": 73847
     },
     {
       "name": "biliych.json",
       "repo": "liu673cn/box",
       "path": "libs/biliych.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/biliych.json",
-      "size": 14238,
-      "last_update": ""
+      "size": 14238
+    },
+    {
+      "name": "03yy.json",
+      "repo": "liu673cn/box",
+      "path": "libs/c/03yy.json",
+      "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/c/03yy.json",
+      "size": 975
     },
     {
       "name": "freeok.json",
       "repo": "liu673cn/box",
       "path": "libs/c/freeok.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/c/freeok.json",
-      "size": 796,
-      "last_update": ""
+      "size": 796
     },
     {
       "name": "乌鸦.json",
       "repo": "liu673cn/box",
       "path": "libs/c/乌鸦.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/c/乌鸦.json",
-      "size": 1789,
-      "last_update": ""
+      "size": 1789
     },
     {
       "name": "热播之家.json",
       "repo": "liu673cn/box",
       "path": "libs/c/热播之家.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/c/热播之家.json",
-      "size": 1057,
-      "last_update": ""
+      "size": 1057
     },
     {
       "name": "相声.json",
       "repo": "liu673cn/box",
       "path": "libs/c/相声.json",
       "url": "https://raw.githubusercontent.com/liu673cn/box/main/libs/c/相声.json",
-      "size": 1066,
-      "last_update": ""
+      "size": 1066
+    },
+    {
+      "name": "XC.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "XC.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "size": 44948
+    },
+    {
+      "name": "Bili.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/Bili.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Bili.json",
+      "size": 31978
+    },
+    {
+      "name": "Blixq.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/Blixq.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixq.json",
+      "size": 8816
+    },
+    {
+      "name": "Blixs.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/Blixs.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixs.json",
+      "size": 5169
+    },
+    {
+      "name": "alist.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/alist.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/alist.json",
+      "size": 639
+    },
+    {
+      "name": "douban.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/douban.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/douban.json",
+      "size": 21859
+    },
+    {
+      "name": "jianpian.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/jianpian.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/jianpian.json",
+      "size": 8198
+    },
+    {
+      "name": "peizhi.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/peizhi.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
+      "size": 596
     }
   ]
 }
