@@ -2,7 +2,7 @@ name: Fetch TVBox JSON
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # 每天 03:00 UTC
+    - cron: '0 3 * * *'   # 每天 03:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -20,17 +20,33 @@ jobs:
       - name: Install requests
         run: pip install requests
 
-      - name: Fetch latest TVBox JSON
+      - name: Fetch and merge TVBox sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python fetch_tvbox.py
 
-      - name: Commit and push list.json
+      - name: Commit and push
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          has_changes=0
+
+          if [ -f tvbox_merged.json ]; then
+            git add tvbox_merged.json
+            has_changes=1
+            echo "✅ tvbox_merged.json 准备提交"
+          fi
+
           if [ -f list.json ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
             git add list.json
-            git commit -m "Update list.json with latest 10 TVBox sources" || echo "No changes to commit"
+            has_changes=1
+            echo "✅ list.json 准备提交"
+          fi
+
+          if [ "$has_changes" -eq 1 ]; then
+            git commit -m "Update TVBox sources: merge & ad-block" || echo "No changes to commit"
             git push
           else
-            echo "list.json 文件不存在，跳过提交。"
+            echo "⚠️ 没有文件生成，跳过提交"
           fi
