@@ -2,7 +2,7 @@ name: Fetch TVBox JSON
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # 每天 03:00 UTC
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -32,17 +32,13 @@ jobs:
 
           has_changes=0
 
-          if [ -f tvbox_merged.json ]; then
-            git add tvbox_merged.json
-            has_changes=1
-            echo "✅ tvbox_merged.json 准备提交"
-          fi
-
-          if [ -f list.json ]; then
-            git add list.json
-            has_changes=1
-            echo "✅ list.json 准备提交"
-          fi
+          for file in tvbox_merged.json list.json index.html; do
+            if [ -f "$file" ]; then
+              git add "$file"
+              has_changes=1
+              echo "✅ $file 准备提交"
+            fi
+          done
 
           if [ "$has_changes" -eq 1 ]; then
             git commit -m "Update TVBox sources: merge & ad-block" || echo "No changes to commit"
