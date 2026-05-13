@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TVBox 聚合源</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; }
+h1 { color: #333; }
+.card { background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+.btn { display: inline-block; padding: 10px 20px; margin: 5px; background: #0366d6; color: #fff; text-decoration: none; border-radius: 5px; font-size: 14px; }
+.btn:hover { background: #0256c7; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #eee; }
+th { background: #f8f9fa; font-weight: 600; }
+a { color: #0366d6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.stats { display: flex; gap: 20px; flex-wrap: wrap; }
+.stat { background: #e3f2fd; padding: 10px 15px; border-radius: 5px; }
+.stat strong { color: #0366d6; font-size: 18px; }
+code { background:#f4f4f4; padding:8px 12px; border-radius:4px; display:block; word-break:break-all; margin:10px 0; }
+</style>
+</head>
+<body>
+<h1>TVBox 聚合源</h1>
+<div class="card">
+<h2>快速使用</h2>
+<p>复制以下地址到 TVBox 配置地址栏：</p>
+<code>https://luckyprc.github.io/tvbox/tvbox_merged.json</code>
+<div>
+<a class="btn" href="tvbox_merged.json" target="_blank">打开聚合源</a>
+<a class="btn" href="list.json" target="_blank">源索引</a>
+</div>
+</div>
+<div class="card">
+<h2>聚合统计</h2>
+<div class="stats">
+<div class="stat">站点 <strong>366</strong></div>
+<div class="stat">解析 <strong>12</strong></div>
+<div class="stat">直播 <strong>36</strong></div>
+<div class="stat">规则 <strong>5</strong></div>
+<div class="stat">来源 <strong>32</strong></div>
+</div>
+</div>
+<div class="card">
+<h2>原始源列表</h2>
+<table>
+<thead><tr><th>#</th><th>文件名</th><th>仓库</th><th>链接</th></tr></thead>
+<tbody>
+    <tr><td>1</td><td>0707.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/0707.json' target='_blank'>raw</a></td></tr>
+    <tr><td>2</td><td>0821.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/0821.json' target='_blank'>raw</a></td></tr>
+    <tr><td>3</td><td>0825.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/0825.json' target='_blank'>raw</a></td></tr>
+    <tr><td>4</td><td>0826.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/0826.json' target='_blank'>raw</a></td></tr>
+    <tr><td>5</td><td>0827.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json' target='_blank'>raw</a></td></tr>
+    <tr><td>6</td><td>VidHub.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ/VidHub.json' target='_blank'>raw</a></td></tr>
+    <tr><td>7</td><td>bttt.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ/bttt.json' target='_blank'>raw</a></td></tr>
+    <tr><td>8</td><td>rarbt.json</td><td>gaotianliuyun/gao</td><td><a href='https://raw.githubusercontent.com/gaotianliuyun/gao/master/XBPQ/rarbt.json' target='_blank'>raw</a></td></tr>
+    <tr><td>9</td><td>0707.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/0707.json' target='_blank'>raw</a></td></tr>
+    <tr><td>10</td><td>0821.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/0821.json' target='_blank'>raw</a></td></tr>
+    <tr><td>11</td><td>0825.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/0825.json' target='_blank'>raw</a></td></tr>
+    <tr><td>12</td><td>0826.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/0826.json' target='_blank'>raw</a></td></tr>
+    <tr><td>13</td><td>0827.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/0827.json' target='_blank'>raw</a></td></tr>
+    <tr><td>14</td><td>367.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/367.json' target='_blank'>raw</a></td></tr>
+    <tr><td>15</td><td>9918.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/9918.json' target='_blank'>raw</a></td></tr>
+    <tr><td>16</td><td>99188.json</td><td>qist/tvbox</td><td><a href='https://raw.githubusercontent.com/qist/tvbox/master/99188.json' target='_blank'>raw</a></td></tr>
+    <tr><td>17</td><td>bili.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/bili.json' target='_blank'>raw</a></td></tr>
+    <tr><td>18</td><td>bilibili.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/bilibili.json' target='_blank'>raw</a></td></tr>
+    <tr><td>19</td><td>biliych.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/biliych.json' target='_blank'>raw</a></td></tr>
+    <tr><td>20</td><td>03yy.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/c/03yy.json' target='_blank'>raw</a></td></tr>
+    <tr><td>21</td><td>freeok.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/c/freeok.json' target='_blank'>raw</a></td></tr>
+    <tr><td>22</td><td>乌鸦.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/c/乌鸦.json' target='_blank'>raw</a></td></tr>
+    <tr><td>23</td><td>热播之家.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/c/热播之家.json' target='_blank'>raw</a></td></tr>
+    <tr><td>24</td><td>相声.json</td><td>liu673cn/box</td><td><a href='https://raw.githubusercontent.com/liu673cn/box/main/libs/c/相声.json' target='_blank'>raw</a></td></tr>
+    <tr><td>25</td><td>XC.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json' target='_blank'>raw</a></td></tr>
+    <tr><td>26</td><td>Bili.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Bili.json' target='_blank'>raw</a></td></tr>
+    <tr><td>27</td><td>Blixq.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixq.json' target='_blank'>raw</a></td></tr>
+    <tr><td>28</td><td>Blixs.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixs.json' target='_blank'>raw</a></td></tr>
+    <tr><td>29</td><td>alist.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/alist.json' target='_blank'>raw</a></td></tr>
+    <tr><td>30</td><td>douban.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/douban.json' target='_blank'>raw</a></td></tr>
+    <tr><td>31</td><td>jianpian.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/jianpian.json' target='_blank'>raw</a></td></tr>
+    <tr><td>32</td><td>peizhi.json</td><td>yoursmile66/TVBox</td><td><a href='https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json' target='_blank'>raw</a></td></tr>
+</tbody>
+</table>
+</div>
+<div class="card" style="text-align:center;color:#666;font-size:12px;">
+自动更新 · 去广告 · 聚合 32 个源
+</div>
+</body>
+</html>
