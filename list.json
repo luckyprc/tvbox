@@ -175,7 +175,7 @@
       "repo": "yoursmile66/TVBox",
       "path": "XC.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "size": 121801
+      "size": 120649
     },
     {
       "name": "Bili.json",
@@ -224,7 +224,7 @@
       "repo": "yoursmile66/TVBox",
       "path": "json/peizhi.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
-      "size": 634
+      "size": 658
     }
   ]
 }
