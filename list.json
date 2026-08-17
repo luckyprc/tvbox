@@ -77,7 +77,7 @@
       "repo": "qist/tvbox",
       "path": "0825.json",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/0825.json",
-      "size": 27499
+      "size": 27643
     },
     {
       "name": "0826.json",
@@ -105,14 +105,14 @@
       "repo": "qist/tvbox",
       "path": "9918.json",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/9918.json",
-      "size": 21843
+      "size": 14844
     },
     {
       "name": "99188.json",
       "repo": "qist/tvbox",
       "path": "99188.json",
       "url": "https://raw.githubusercontent.com/qist/tvbox/master/99188.json",
-      "size": 21877
+      "size": 14420
     },
     {
       "name": "bili.json",
