@@ -175,28 +175,35 @@
       "repo": "yoursmile66/TVBox",
       "path": "XC.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
-      "size": 64329
+      "size": 65737
     },
     {
       "name": "Bili.json",
       "repo": "yoursmile66/TVBox",
       "path": "json/Bili.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Bili.json",
-      "size": 31978
+      "size": 31452
     },
     {
       "name": "Blixq.json",
       "repo": "yoursmile66/TVBox",
       "path": "json/Blixq.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixq.json",
-      "size": 8816
+      "size": 9019
     },
     {
       "name": "Blixs.json",
       "repo": "yoursmile66/TVBox",
       "path": "json/Blixs.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Blixs.json",
-      "size": 5169
+      "size": 5371
+    },
+    {
+      "name": "Bliych.json",
+      "repo": "yoursmile66/TVBox",
+      "path": "json/Bliych.json",
+      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/Bliych.json",
+      "size": 16690
     },
     {
       "name": "alist.json",
@@ -217,14 +224,7 @@
       "repo": "yoursmile66/TVBox",
       "path": "json/jianpian.json",
       "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/jianpian.json",
-      "size": 8198
-    },
-    {
-      "name": "peizhi.json",
-      "repo": "yoursmile66/TVBox",
-      "path": "json/peizhi.json",
-      "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json",
-      "size": 658
+      "size": 7157
     }
   ]
 }
